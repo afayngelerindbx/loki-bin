@@ -14,7 +14,7 @@ Anywhere `loki` is used in these instructions, you can replace it with `loki-can
 Available tags can be found in https://hub.docker.com/r/grafana/loki/tags
 
 ```
-$ docker create grafana/loki:<tag>
+$ docker container create grafana/loki:<tag>
 ....
 <container id>
 $ docker cp <container id>:/usr/bin/loki ./
